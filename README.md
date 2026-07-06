@@ -7,21 +7,13 @@ The project focuses on clean UI development, responsive mobile-centered layout, 
 
 # 🚀 Live Demo
 
-Add your deployed Vercel link here
-
-Example:
-
 https://your-project-name.vercel.app
 
 ---
 
 # 📂 GitHub Repository
 
-Add your GitHub repository link here
-
-Example:
-
-https://github.com/yourusername/popx-react-assignment
+https://github.com/Hrishisk99/popx-react-assignment
 
 ---
 
