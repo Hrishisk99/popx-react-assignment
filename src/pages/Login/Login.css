@@ -50,9 +50,14 @@
   height: 46px;
   border: none;
   border-radius: 6px;
-  background: #cbcbcb;
+  background: #6c25ff;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.login-btn:hover {
+  opacity: 0.92;
 }

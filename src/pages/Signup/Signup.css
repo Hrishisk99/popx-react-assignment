@@ -14,7 +14,7 @@
 .signup-form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  min-height: 78vh;
 }
 
 .input-group {
@@ -63,7 +63,7 @@
 }
 
 .signup-btn {
-  margin-top: 24px;
+  margin-top: auto;
   height: 46px;
   border: none;
   border-radius: 6px;
