@@ -1,10 +1,26 @@
 import "./Profile.css";
+import { useNavigate } from "react-router-dom";
 
 function Profile() {
+  const navigate = useNavigate();
+
+  const userData =
+    JSON.parse(localStorage.getItem("popxUser")) || {};
+
   return (
     <div className="profile-page">
-      <div className="profile-header">
-        <h2>Account Settings</h2>
+      <div className="page-header">
+        <h2 className="page-title profile-title">
+          Account Settings
+        </h2>
+
+        <button
+          type="button"
+          className="back-btn"
+          onClick={() => navigate(-1)}
+        >
+          Back
+        </button>
       </div>
 
       <div className="profile-card">
@@ -16,20 +32,30 @@ function Profile() {
               className="profile-image"
             />
 
-            <div className="camera-icon">📷</div>
+            <div className="camera-icon">
+              📷
+            </div>
           </div>
 
           <div>
-            <h3>Marry Doe</h3>
-            <p>marrydoe@gmail.com</p>
+            <h3>
+              {userData.fullName || "Marry Doe"}
+            </h3>
+
+            <p>
+              {userData.email ||
+                "marrydoe@gmail.com"}
+            </p>
           </div>
         </div>
 
         <div className="profile-description">
           <p>
-            Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing
-            Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut
-            Labore Et Dolore Magna Aliquyam Erat, Sed Diam
+            Lorem Ipsum Dolor Sit Amet,
+            Consetetur Sadipscing Elitr,
+            Sed Diam Nonumy Eirmod Tempor
+            Invidunt Ut Labore Et Dolore
+            Magna Aliquyam Erat, Sed Diam
           </p>
         </div>
       </div>

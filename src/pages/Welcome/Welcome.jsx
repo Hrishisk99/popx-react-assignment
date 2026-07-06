@@ -19,12 +19,9 @@ function Welcome() {
           Create Account
         </button>
 
-        <button
-  className="secondary-btn"
-  onClick={() => navigate("/login")}
->
-  Already Registered? Login
-</button>
+        <button className="secondary-btn" onClick={() => navigate("/login")}>
+          Already Registered? Login
+        </button>
       </div>
     </div>
   );
