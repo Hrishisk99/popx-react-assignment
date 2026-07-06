@@ -112,6 +112,32 @@ User signup data is stored using localStorage and displayed dynamically on the P
 
 ---
 
+# 📸 Screenshots
+
+## Welcome Page
+
+![Welcome Page](src\screenshots\welcome-page.png)
+
+---
+
+## Signin Page
+
+![Signin Page](src\screenshots\sigin-page.png)
+
+---
+
+## Login Page
+
+![Login Page](src\screenshots\login-page.png)
+
+---
+
+## Profile Page
+
+![Profile Page](src\screenshots\profile-page.png)
+
+---
+
 # 📂 Folder Structure
 
 ```bash
@@ -137,7 +163,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/Hrishisk99/popx-react-assignment.git
 ```
 
 Navigate into the project:
@@ -185,5 +211,3 @@ Through this assignment:
 # 👨‍💻 Author
 
 Hrishikesh S Kolli
-
-```
