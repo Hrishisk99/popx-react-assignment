@@ -16,11 +16,11 @@ function Welcome() {
         </p>
 
         <button
-          className="primary-btn"
-          onClick={() => navigate("/signup")}
-        >
-          Create Account
-        </button>
+  className="primary-btn"
+  onClick={() => navigate("/signup")}
+>
+  Create Account
+</button>
 
         <button
           className="secondary-btn"
