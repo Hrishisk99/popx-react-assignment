@@ -1,6 +1,8 @@
 import "./Signup.css";
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
+  const navigate = useNavigate();
   return (
     <div className="signup-page">
       <h1>
@@ -51,7 +53,11 @@ function Signup() {
           </div>
         </div>
 
-        <button type="submit" className="signup-btn">
+        <button
+          type="button"
+          className="signup-btn"
+          onClick={() => navigate("/profile")}
+        >
           Create Account
         </button>
       </form>

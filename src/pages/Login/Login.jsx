@@ -1,6 +1,9 @@
 import "./Login.css";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate();
+
   return (
     <div className="login-page">
       <div className="login-content">
@@ -19,21 +22,19 @@ function Login() {
         <form className="login-form">
           <div className="input-group">
             <label>Email Address</label>
-            <input
-              type="email"
-              placeholder="Enter email address"
-            />
+            <input type="email" placeholder="Enter email address" />
           </div>
 
           <div className="input-group">
             <label>Password</label>
-            <input
-              type="password"
-              placeholder="Enter password"
-            />
+            <input type="password" placeholder="Enter password" />
           </div>
 
-          <button type="submit" className="login-btn">
+          <button
+            type="button"
+            className="login-btn"
+            onClick={() => navigate("/profile")}
+          >
             Login
           </button>
         </form>
