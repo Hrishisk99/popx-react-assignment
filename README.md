@@ -7,7 +7,7 @@ The project focuses on clean UI development, responsive mobile-centered layout, 
 
 # 🚀 Live Demo
 
-https://popx-react-assignment-tawny.vercel.app/
+ https://popx-react-assignment-n9lqbw342-hrishikesh-s-kollis-projects.vercel.app/
 
 ---
 
@@ -116,25 +116,25 @@ User signup data is stored using localStorage and displayed dynamically on the P
 
 ## Welcome Page
 
-![Welcome Page](src\screenshots\welcome-page.png)
+![Welcome Page](./screenshots/welcome-page.png)
 
 ---
 
 ## Signin Page
 
-![Signin Page](src\screenshots\sigin-page.png)
+![Signin Page](./screenshots/sigin-page.png)
 
 ---
 
 ## Login Page
 
-![Login Page](src\screenshots\login-page.png)
+![Login Page](./screenshots/login-page.png)
 
 ---
 
 ## Profile Page
 
-![Profile Page](src\screenshots\profile-page.png)
+![Profile Page](./screenshots/profile-page.png)
 
 ---
 
