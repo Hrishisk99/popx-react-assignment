@@ -62,7 +62,7 @@ function Login() {
           className="back-btn"
           onClick={() => navigate(-1)}
         >
-          ← Back
+          Back
         </button>
       </div>
 
