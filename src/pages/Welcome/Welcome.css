@@ -1,0 +1,45 @@
+.welcome-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 24px;
+}
+
+.welcome-content {
+  width: 100%;
+}
+
+.welcome-content h1 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #1d1d1d;
+}
+
+.welcome-content p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #6b6b6b;
+  margin-bottom: 28px;
+}
+
+.primary-btn,
+.secondary-btn {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #6c25ff;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.secondary-btn {
+  background: #cebafb;
+  color: #1d1d1d;
+}
