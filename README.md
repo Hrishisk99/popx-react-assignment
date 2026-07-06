@@ -7,7 +7,7 @@ The project focuses on clean UI development, responsive mobile-centered layout, 
 
 # 🚀 Live Demo
 
-https://your-project-name.vercel.app
+https://popx-react-assignment-tawny.vercel.app/
 
 ---
 
